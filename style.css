@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.uppercontainer{
+    background-color: #4867a8 ;
+    height: 120px;
+}
+.logo{
+    width: 60%;
+    float: left;
+
+    
+}
+.login{
+    float: left;
+    width: 40%;
+}
+label[for="email"]{
+    
+    color: aliceblue;
+}
+.signinemailinput{
+    margin-top: 5px;
+    border-style: inset;
+    height: 20px;
+}
+.signinpassinput{
+    margin-top: 5px;
+    border-style: inset;
+    height: 20px;
+}
+
+label[for="password"]{
+    color: aliceblue;
+
+}
+.fblogo{
+    height: 120px;
+    margin-left: 150px;
+}
+.emailinput{
+    float: left;
+    padding: 20px 50px 0px 0px;
+}
+.passwordinput{
+    float: left;
+    padding: 20px 50px 0px 0px;
+}   
+.forgotpass{
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+.signinbutton{
+    background-color:  #3b60af ;
+    height: 25px;
+    width: 60px;
+    border-radius: 0.5px;
+    border-color: #111a2e;
+    margin: 45px 50px 0px 0px;
+    padding: 0;
+    color: aliceblue;
+    font-weight: 600;
+}
+.lowercontainer{
+
+}
+.leftcontainer{
+    float: left;
+    width: 55%;
+    text-align: center;
+    
+}
+.text1{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 150px;
+    font-size: 32px;
+    color: #010e2b;
+}
+.globeimage{
+    
+    height: 500px;
+}
+.rightcontainer{
+    float: left;
+    width: 45%;
+}
+h3{
+    margin-top: 0;
+    font-size: 25px;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.name{
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 250px;
+    padding: 0;
+}
+.emailinputsignup{
+    border: 1.5px solid gray;
+  border-radius: 5px;
+  
+  margin-bottom: 10px;
+  height: 40px;
+  width: 513px;
+  padding: 0
+  ;
+}
+.newpass{
+    border: 1.5px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 513px;
+  padding: 0;
+}
+::placeholder{
+    font-size: 18px;
+    padding-left: 5px;
+    color: gray;
+}
+label{
+    font-weight: 600;
+    color: rgb(70, 69, 69);
+}
+a{
+    color: rgb(0, 0, 151);
+}
+.text3{
+    padding: 0;
+    margin-top: 10px;
+    color: rgb(70, 70, 70);
+    font-weight: 400;
+}
+label[for="dob"]{
+    margin-top: 20px;
+
+}
+label[for="gender"]{
+    margin-top: 20px;
+
+}
+input[type="radio"]{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.signupbutton{
+    margin-top: 10px;
+    border-style: inset;
+    border-radius: 5px;
+    border-color: rgb(60, 153, 72);
+    height: 45px;
+    width: 250px;
+    padding: 0;
+    background-color: rgb(2, 134, 2);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Helvetica'
+}
+.helpbutton{
+    height: 20px;
+    margin-left: 10px;
+    
+    
+}
+#day{
+    margin-top: 10px;
+    margin-bottom: 15px;;
+    height: 30px;
+    padding-left: 0;
+}
+#month{
+    height: 30px;
+    margin-left: 0;
+}
+#year{
+    height: 30px;
+}
